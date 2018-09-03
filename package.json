@@ -1,5 +1,5 @@
 {
-  "name": "cardvalidator",
+  "name": "dinerfscardvalidator",
   "version": "1.0.0",
   "description": "Validador de Cartão de crédito",
   "main": "index.js",
@@ -11,5 +11,9 @@
     "url": "\u0016https://github.com/Dinerf/cardValidator.git"
   },
   "author": "dinerf",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
 }
