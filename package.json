@@ -1,6 +1,6 @@
 {
   "name": "dinerfscardvalidator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Validador de Cartão de crédito",
   "main": "index.js",
   "scripts": {
