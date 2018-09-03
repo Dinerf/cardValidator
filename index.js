@@ -1,9 +1,6 @@
 module.exports.cardValidator = function cardValidator(cardNumber) {
   cardNumber = validateParameter(cardNumber).toString().split('').reverse().map(Number).map(digit).reduce((acum, number) => acum + number);
-  if(cardNumber % 10 === 0) {
-    return true;
-  }
-  return false;
+  return cardNumber % 10 === 0 ? true : false;
 };
 function validateParameter(param) {
   if(param == null) {
@@ -21,4 +18,4 @@ function digit(number, index) {
   index % 2 !== 0 ? number *= 2 : number;
   number > 9 ? number -=9 : number;
   return number;
-}
+} 
