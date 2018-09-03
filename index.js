@@ -16,6 +16,5 @@ function validateParameter(param) {
 }
 function digit(number, index) {
   index % 2 !== 0 ? number *= 2 : number;
-  number > 9 ? number -=9 : number;
-  return number;
+  return number > 9 ? number -=9 : number;
 } 
