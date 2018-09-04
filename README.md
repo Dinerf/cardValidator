@@ -18,9 +18,9 @@ $node
 * Funcionalidade: verifica se o número de um cartão de crédito é válido.
 
 ## **Instalação**
-* Você deverá ter o node + npm instalados. Para guia de instalação, visite o site oficial.
+* Você deverá ter o node + npm instalados. Para guia de instalação, visite o [site oficial](https://www.npmjs.com/get-npm).
 
-* Proceda com a instalação com: $npm install dinerfscardvalidator
+* Proceda com a instalação com: `$npm install dinerfscardvalidator`
 
 ## **roadmap oficial do projeto**
 
